@@ -1,0 +1,66 @@
+.login-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+  }
+  
+  .left-section {
+    width: 50%;
+  }
+  
+  .right-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-box {
+    width: 300px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  input {
+    width: 90%;
+    padding: 10px;
+    margin: 5px 0px;
+  }
+  
+  .login-button,
+  .create-account {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .forgot-password {
+    display: block;
+    margin: 10px 0;
+    color: blue;
+    text-decoration: none;
+  }
+  
+  .highlight {
+    color: blue;
+  }
+
+  
+  /* zaid changes */
+  .gallery-item{
+    height: 80%;
+    width: 90%;
+    margin-left: 10rem;
+  }
+
+  .login-title{
+    margin-top: -16rem;
+  }

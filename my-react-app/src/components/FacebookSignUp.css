@@ -1,0 +1,108 @@
+/* Main wrapper */
+.signup-container {
+    background-color: #f0f2f5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Box */
+  .signup-box {
+    width: 430px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Facebook title */
+  .signup-title {
+    color: #1877f2;
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Subtitle */
+  .signup-subtitle {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .signup-desc {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Input grouping */
+  .input-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .input-row input,
+  .input-row select {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  /* Labels */
+  .input-label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Gender options */
+  .gender-option {
+    flex: 1;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+  
+  /* Full width inputs */
+  .full-width-input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Terms and Info */
+  .signup-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  
+  /* Sign Up Button */
+  .signup-button {
+    width: 100%;
+    background-color: green;
+    color: #fff;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Already have account */
+  .signup-login-link {
+    text-align: center;
+    margin-top: 30px;
+    color: #1877f2;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  center{
+margin-top: 15px;
+  }

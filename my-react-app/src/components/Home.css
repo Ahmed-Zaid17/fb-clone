@@ -1,0 +1,198 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    color: black;
+    /* width: 100%; */
+  }
+  
+  /* Navbar */
+  .fb-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: white;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+  }
+  
+  .fb-logo {
+    font-size: 24px;
+  }
+  
+  .fb-search {
+    width: 30%;
+    padding: 8px;
+    border-radius: 20px;
+    border: none;
+    background: #e4e6eb;
+  }
+  
+  .fb-icons span {
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  /* Container */
+  .fb-container {
+    display: flex;
+    justify-content: space-between;
+    /* width: 120%; */
+    margin: auto;
+    /* padding: 20px; */
+    
+ 
+  
+  }
+  
+ 
+
+   .fb-sidebar {
+    width: 20%;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: sticky;
+    left: 2%;
+    top: 80px; /* Below the navbar */
+    height: calc(100vh - 60px);
+    overflow: hidden; /* Prevent scrolling */
+}
+
+
+  .fb-sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .fb-sidebar li {
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .fb-sidebar li:hover {
+    background: #e4e6eb;
+  }
+  
+  /* Main Content */
+  .fb-main-content {
+    width: 70%;
+    padding-top: 2%;
+  }
+  
+  /* Story Section */
+  .fb-story-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    overflow-x: scroll;
+    width: 80%;
+    overflow: hidden;
+
+  }
+  
+  .story {
+    width: 100px;
+    height: 180px;
+    background: white;
+    padding: 10px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  }
+  
+  .story:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+  }
+  
+  /* Post Box */
+  .fb-post-box {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    width: 74%;
+  }
+  
+  .fb-post-box input {
+    width: 95%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: #f0f2f5;
+    /* color: black; */
+  }
+  
+  .post-options {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .post-options button {
+    background: none;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    color: black;
+  }
+  
+  /* Feed */
+  .fb-feed {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Post */
+  .fb-post {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    width: 74%;
+  }
+  
+  .post-actions button {
+    margin-right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: black;
+  
+  }
+  
+  
+  
+  .contacts-section{
+      width: 200px;
+      padding-left: 1rem;
+  
+  }
+  
+  .sponsored-section{
+      width: 200px;
+      padding-left:2px;
+  }
+  
+  /* zaid's css */
+  .left-sidebar-menu {
+   text-decoration: none;
+   color: black;
+  }
+
+  .sidebar-logo{
+    font-size: 1.5em;
+  }

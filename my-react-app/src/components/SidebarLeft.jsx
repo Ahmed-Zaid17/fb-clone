@@ -39,7 +39,7 @@ const SidebarLeft = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/auth/me", { withCredentials: true })
+      .get("https://facebook-backend-9kq5.onrender.com/api/auth/me", { withCredentials: true })
       .then((res) => {
         setUser(res.data.user);
         setLoading(false);
@@ -53,7 +53,7 @@ const SidebarLeft = () => {
   const handleLogout = async () => {
     try {
       await axios.post(
-        "http://localhost:5000/api/auth/logout",
+        "https://facebook-backend-9kq5.onrender.com/api/auth/logout",
         {},
         { withCredentials: true }
       );

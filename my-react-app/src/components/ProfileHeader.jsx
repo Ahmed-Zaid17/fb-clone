@@ -41,7 +41,7 @@
 
 //   useEffect(() => {
 //     axios
-//       .get("http://localhost:5000/api/auth/me", { withCredentials: true })
+//       .get("https://facebook-backend-9kq5.onrender.com/api/auth/me", { withCredentials: true })
 //       .then((res) => setUser(res.data.user))
 //       .catch(() => setUser(null));
 //   }, []);
@@ -91,7 +91,7 @@ function ProfileHeader() {
   useEffect(() => {
     // Fetch logged-in user from session
     axios
-      .get("http://localhost:5000/api/auth/me", { withCredentials: true })
+      .get("https://facebook-backend-9kq5.onrender.com/api/auth/me", { withCredentials: true })
       .then((res) => setUser(res.data.user))
       .catch(() => setUser(null));
 

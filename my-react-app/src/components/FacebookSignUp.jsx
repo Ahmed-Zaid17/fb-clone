@@ -33,7 +33,7 @@ function FacebookSignUp() {
     };
   
     try {
-      const res = await axios.post('http://localhost:5000/api/auth/signup', {
+      const res = await axios.post('https://facebook-backend-9kq5.onrender.com/api/auth/signup', {
         firstName: form.firstName,
         surname: form.surname,
         dob,

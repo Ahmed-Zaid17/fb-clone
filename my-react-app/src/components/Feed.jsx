@@ -177,7 +177,7 @@ function Feed() {
 
   const fetchVideoPosts = async (pageNum) => {
     try {
-      const res = await axios.get("http://localhost:5000/api/pexels/videos", {
+      const res = await axios.get("https://facebook-backend-9kq5.onrender.com/api/pexels/videos", {
         params: {
           per_page: 5,
           page: pageNum,

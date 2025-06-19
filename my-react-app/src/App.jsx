@@ -15,7 +15,10 @@ import PhotoPage from "./components/PhotoPage";
 import WatchPage from "./components/WatchPage";
 import ReelsFeed from "./components/ReelsFeed";
 import Reel from "./components/Reel";
-import Profile from "./components/Profile"; // From second project
+// import Profile from "./components/Profile"; // From second project
+// // src/App.jsx
+import Profile from "./components/Profile";
+
 import FacebookSignUp from "./components/FacebookSignUp"; 
 import FriendsPage from "./components/FriendsPage";
 
